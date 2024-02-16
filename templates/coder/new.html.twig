@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Coder{% endblock %}
+
+{% block body %}
+    <h1>Create new Coder</h1>
+
+    {{ include('coder/_form.html.twig') }}
+
+    <a href="{{ path('app_coder_index') }}">back to list</a>
+{% endblock %}
