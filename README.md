@@ -40,4 +40,4 @@ Una API Restfull con Postman: https://127.0.0.1:8000/api/coders
 
 (Fíjate que en .env CORS_ALLOW_ORIGIN='^https?://(localhost|127.0.0.1)(:[0-9]+)?$')
 
-Dentro de poco: Relaciones entre tablar y Login y register desacoplado
+Dentro de poco: Controlar que muestra la API, relaciones entre tablas, y Login y register desacoplado
